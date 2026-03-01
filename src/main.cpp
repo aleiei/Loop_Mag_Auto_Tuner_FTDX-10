@@ -38,7 +38,7 @@
 #define CALLSIGN  "IU0PXK"
 #define SCREENSAVER_MESSAGE  "IU0PXK Mag Loop Tuner"  // shown during screensaver
 #define RADIO_MODEL  " Yaesu FTDX-10"
-#define VERSION  "V1.00"
+#define VERSION  "V1.01"
 
 // IMPORTANT due to lack of memory and speed
 // NETWORK NOT COMPATIBLE WITCH MEGA 2560 - USE ARDUINO DUE 32bit platform instead
