@@ -53,7 +53,7 @@ pio run -t upload
 - **SWR sensor**: `A10`
 - **Joystick**: `A12` (X), `A13` (Y)
 - **Pulsanti**: `42`, `35`, `36`, `37`, `34`
-- **Network shield CS**: `10`
+- **Network shield CS**: `10` only for ARDUINO DUE 32bit platform
 
 ## Note
 
