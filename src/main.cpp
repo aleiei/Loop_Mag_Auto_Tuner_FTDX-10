@@ -1,14 +1,12 @@
-#include <Arduino.h>
-
 /*
    Mag loop antenna auto tuner
 
         Created 28 February 2026
-        Updated 28 February 2026
+        Updated 1 March 2026
         by Alessandro Orlando - IU0PXK
 
-   Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) License
-   https://creativecommons.org/licenses/by-nc/2.0/
+        MIT License
+        Copyright (c) 2026 Alessandro Orlando
 
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -22,6 +20,7 @@
    www.ve1zac.com/Simple%20Loop%20Automatic%20Tuner.pdf
    https://sites.google.com/site/lofturj/to-automatically-tune-a-magnetic-loop-antenna
  */
+#include <Arduino.h>
 #include <TimedAction.h>
 #include <Stepper.h>
 #include <SPI.h>
@@ -38,7 +37,7 @@
 #define CALLSIGN  "IU0PXK"
 #define SCREENSAVER_MESSAGE  "IU0PXK Mag Loop Tuner"  // shown during screensaver
 #define RADIO_MODEL  " Yaesu FTDX-10"
-#define VERSION  "V1.01"
+#define VERSION  "V1.02"
 
 // IMPORTANT due to lack of memory and speed
 // NETWORK NOT COMPATIBLE WITCH MEGA 2560 - USE ARDUINO DUE 32bit platform instead
